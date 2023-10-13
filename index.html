@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Drop Culture</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ~~~~~~~~~~ OPEN GRAPH META TAGS ~~~~~~~~~~ -->
+    <meta property="og:title" content="Shop substainable with Drop Culture" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Drop Culture focuses on sustainability and repurposing fabrics to create one-of-a-kind clothing pieces. Shop for clothes based on the current and coming up fashion trends. We have exclusive items every season, made by fashion desingers from around the world. "
+    />
+  </head>
+
+  <body>
+    <a id="skip" href="#main-content">Skip to Main Content</a>
+    <header>
+      <h1>Drop Culture</h1>
+      <nav>
+        <ul>
+          <li><a href="#main-content">Shop</a></li>
+          <li><a href="#page3">Members</a></li>
+          <li><a href="#page4">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="animated">
+        <span
+          >BECOME A DROP CULTURE MEMBER FOR EXCLUSIVE CONTENT AND DISCOUNTS
+        </span>
+      </div>
+      <!-- SHOP DROP pg1-->
+      <div class="pg1subT">
+        <p>SS23 Collection - Drop01</p>
+        <h2>Made In Motion</h2>
+        <p>Cultivated with Purpose</p>
+        <button type="button">SHOP DROP 01</button>
+      </div>
+      <!-- SHOP DROP pg1 end// -->
+      <div class="pg1img">
+        <video autoplay loop class="video1">
+          <source
+            src="pexels-paashuu-15526545-1080x1920-30fps.mp4"
+            type="video/mp4">
+          <source
+            src="pexels-paashuu-15526545-1080x1920-30fps.mp4"
+            type="video/ogg">
+        </video>
+
+        <img
+          class="img1"
+          src="hong-nguyen-y0ZrRi-RpXc-unsplash.jpg"
+          alt="unsplash @goh?utm_sourceunsplash&utm_mediumreferral&utm_contentcreditCopyText"
+        />
+        <img
+          class="img1of3"
+          src="pexels-cottonbro-studio-10667749.jpg"
+          alt="Photo by cottonbro studio: https://www.pexels.com/photo/two-people-in-fashionable-jackets-5839947/"
+        />
+        <button onclick="myFunction()" class="dark-light">
+          <img
+            src="darkLight.png"
+            alt="light or dark screen mode"
+            width="50px"
+          />
+        </button>
+      </div>
+      <!--section 2 of pg1 START-->
+
+      <!-- section 2 0f pg1 END -->
+
+      <!-- ANIMATION END -->
+
+      <!-- JUST DROPED PRODUCT pg2: START -->
+      <section class="page2" id="main-content">
+        <dialog id="popup">
+          <h2>Confirmed Purchase</h2>
+          <p>Popup content goes here</p>
+          <button onclick="document.getElementById('popup').close()">
+            Close
+          </button>
+        </dialog>
+        <div id="first-column">
+          <h2>Just Dropped</h2>
+          <div id="shopping-cart">
+            <h3>Shopping Cart</h3>
+            <ul id="items">
+              <!-- Items will be added here dynamically -->
+            </ul>
+            <div id="subtotal">
+              <h4>Sub-Total:</h4>
+              <h4>$0</h4>
+            </div>
+            <div id="tax">
+              <h4>Tax Rate:</h4>
+              <h4>8.5%</h4>
+            </div>
+            <div id="shipping">
+              <h4>Shipping:</h4>
+              <h4>$5</h4>
+            </div>
+            <div id="total">
+              <h4>Cart Total:</h4>
+              <h4>$0.00</h4>
+            </div>
+
+            <button type="button" id="check-btn">Checkout</button>
+          </div>
+        </div>
+        <article>
+          <img src="shirt3.png" alt="denim top and pants" />
+          <h3 class="item-input">Giuseppe Di Morabito</h3>
+          <p>
+            Halterneck crochet-chain top featuring silver-tone, chainmail
+            effect, crochet knit, fringe detailing, halterneck tie fastening,
+            sleeveless, open back and rear tie fastening.
+          </p>
+          <a>Price: $480</a>
+          <button type="button" class="add-btn">+</button>
+        </article>
+        <article>
+          <img src="pants4.png" alt="linen orange pants" />
+          <h3 class="item-input">Dion Lee</h3>
+          <p id="hiddenText">
+            Bootcut tailored trousers featuring burnt orange, belt loops,
+            pressed crease, concealed front fastening, two side inset pockets,
+            two rear welt pockets and high waist.
+          </p>
+          <a>Price: $200</a>
+          <button type="button" class="add-btn">+</button>
+        </article>
+        <article>
+          <img src="shoe.png" alt="Leather sneakers" />
+          <h3 class="item-input">Lanvin</h3>
+          <p>
+            Lanvin introduces an all-beige iteration of the Curb sneakers.
+            Crafted from a leather and mesh-layered upper, they stand out for
+            their oversized laces and extended padded tongue.
+          </p>
+          <a>Price: $700</a>
+          <button type="button" class="add-btn">+</button>
+        </article>
+        <article>
+          <img src="mensS6.png" alt="White button shirt" />
+          <h3 class="item-input">Manokhi</h3>
+          <p>
+            Oversized leather jacket featuring dark red, leather, off-centre
+            front zip fastening, belted waist, front zip fastening pockets and
+            long sleeves.
+          </p>
+          <a>Price: $370</a>
+          <button type="button" class="add-btn">+</button>
+        </article>
+        <!-- BACKGROUND IMAGE PG3  -->
+
+        <!-- BACKGROUND IMG PG3 -->
+      </section>
+      <!-- JUST DROPPED PRODUCT:END -->
+
+      <!-- BECOME A MEMBER PG4 -->
+      <section id="page3">
+        <div class="photoScroll">
+          <img
+            class="mySlides"
+            src="2peice.png"
+            alt="grey tan two peice skirt and tank set"
+          />
+          <img
+            class="mySlides"
+            src="2peice5.png"
+            alt="oragne tank and skirt set"
+          />
+          <img class="mySlides" src="boot2.png" alt="kneehigh boots" />
+          <img
+            class="mySlides"
+            src="mensS5.png"
+            alt="model in bright colored button down and slacks9"
+          />
+          <img class="mySlides" src="dress.png" alt="olive green long dress" />
+          <img
+            class="mySlides"
+            src="jacektFullbody.png"
+            alt="model in tan jacket and brown pants"
+          />
+          <button class="w3-button w3-display-left" onclick="plusDivs(-1)">
+            &#10094;
+          </button>
+          <button class="w3-button w3-display-right" onclick="plusDivs(+1)">
+            &#10095;
+          </button>
+        </div>
+        <h2>Become a Member</h2>
+        <form method="post" action="https://wp.zybooks.com/form-viewer.php">
+          <label for="fName">First Name<span class="required">*</span></label>
+          <input
+            type="text"
+            name="fName"
+            id="fName"
+            autocomplete="given-name"
+            placeholder="First Name"
+            required
+          />
+
+          <label for="lName">Last Name<span class="required">*</span></label>
+          <input
+            type="text"
+            name="lName"
+            id="lName"
+            autocomplete="family-name"
+            placeholder="Last Name"
+            required
+          />
+          <fieldset>
+            <legend>Contact Method<span class="required">*</span></legend>
+            <!-- custom radio button styles from https://moderncss.dev/pure-css-custom-styled-radio-buttons/ -->
+            <label for="prefEmail">
+              <span class="radio-input">
+                <input
+                  type="radio"
+                  name="contactPref"
+                  id="prefEmail"
+                  required
+                  checked
+                />
+                <span class="radio-control"></span>
+              </span>
+              <span class="radio-label">Email</span>
+            </label>
+            <label for="prefText">
+              <span class="radio-input">
+                <input type="radio" name="contactPref" id="prefText" />
+                <span class="radio-control"></span>
+              </span>
+              <span class="radio-label">Text</span>
+            </label>
+            <label for="prefPhone">
+              <span class="radio-input">
+                <input type="radio" name="contactPref" id="prefPhone" />
+                <span class="radio-control"></span>
+              </span>
+              <span class="radio-label">Phone</span>
+            </label>
+          </fieldset>
+          <label for="email"
+            >Email Address<span class="required">*</span></label
+          >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            autocomplete="email"
+            placeholder="Email Address"
+            required
+          />
+          <label for="phone">Phone Number<span class="required">*</span></label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            autocomplete="tel"
+            placeholder="Phone Number"
+            required
+          />
+          <label>Comments<span class="required">*</span></label>
+          <textarea rows="4" cols="50" name="comment">
+Enter text here...</textarea
+          >
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <!-- BECOME A MEMBER pg4 end -->
+
+      <!-- ABOUT PAGE START -->
+      <section id="page4">
+        <div>
+          <h2>Our Story</h2>
+          <p>
+            At DROP CULTURE , we believe that fashion should be a celebration of
+            diversity and inclusion. That's why we drop new items every season,
+            inspired by the latest trends and styles from around the world. Our
+            collections are designed to showcase the beauty of different
+            cultures and celebrate the uniqueness of every individual. Each
+            peice from a collection is currated and from sourced designer(s).
+            <br /><br />But we're not just about fashion – we're also committed
+            to sustainability and social responsibility. We use eco-friendly
+            materials and sustainable production methods to minimize our impact
+            on the planet. Our products are ethically sourced and made with the
+            highest standards of quality, ensuring that they are both beautiful
+            and sustainable.
+          </p>
+        </div>
+       <div class="image-slideshow">
+  <video autoplay loop class="video2">
+    <source src="imgs.mp4" type="video/mp4">
+    <source src="imgs.mp4" type="video/ogg">
+  </video>
+</div>
+<div class="image-slideshow">
+  <video autoplay loop class="video2">
+    <source src="imgs.mp4" type="video/mp4">
+    <source src="imgs.mp4" type="video/ogg">
+  </video>
+</div>
+        <div class="howitworks">
+          <h3>How Each Drop Works</h3>
+
+          <p>
+            At DROP CULTURE , we believe that fashion can be a force for good.
+            That's why we donate a portion of our profits to organizations that
+            support social and environmental causes. We believe that by making
+            conscious choices, we can create a better world for everyone. So
+            whether you're looking for the latest fashion trends or eco-friendly
+            and sustainable products, DROP CULTURE is the ultimate destination
+            for socially conscious individuals who want to express their unique
+            sense of style while making a positive impact on the world. Each
+            peice is hand sewn with precision and care, this makes every item
+            exclusive. Once a collection is sold out you will have to wait for
+            the next one to drop.
+          </p>
+        </div>
+      </section>
+      <!-- ABOUT PAGE END -->
+      <!-- Bottom 4 content photos: START -->
+      <section class="page5">
+        <h4 hidden>More Content</h4>
+        <img
+          src="pexels-mikhail-nilov-7624504.jpg"
+          alt="Photo by Mikhail Nilov: https://www.pexels.com/photo/woman-in-white-dress-shirt-7624504/"
+        />
+        <img
+          src="pexels-midory-pho-13786287.jpg"
+          alt="Photo by Midory Pho: https://www.pexels.com/photo/women-in-dresses-on-white-studio-background-13786287/"
+        />
+        <img
+          src="pexels-cottonbro-studio-6110362.jpg"
+          alt="Photo by cottonbro studio: https://www.pexels.com/photo/women-standing-on-rocky-surface-wearing-business-suits-9834549/"
+        />
+        <img
+          src="marvin-meyer--os_cwimpJI-unsplash.jpg"
+          alt="Photo by https://unsplash.com/@marvelous?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        />
+      </section>
+
+      <!-- Bottom 4 content photos : END -->
+    </main>
+    <footer>
+      <section class="page6">
+        <div>
+          <h3>Information</h3>
+          <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Brand Responsibility</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="socials">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/yourusername"
+                ><img
+                  src="https://img.icons8.com/material/24/null/facebook-new.png"
+                  alt="facebook logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/yourusername"
+                ><img
+                  src="https://img.icons8.com/material/24/null/twitter--v2.png"
+                  alt="twitter logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/yourusername"
+                ><img
+                  src="https://img.icons8.com/material/24/null/instagram-new--v1.png"
+                  alt="instagram logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.pinterest.com/yourusername"
+                ><img
+                  src="https://img.icons8.com/material/24/null/pinterest--v1.png"
+                  alt="pintrest logo"
+              /></a>
+            </li>
+          </ul>
+          <h4>Become a Member</h4>
+          <button type="button">Join</button>
+        </div>
+        <div class="support">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="#">Contact & FAQ's</a></li>
+            <li><a href="#">Ship & Returns</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Promotions and Vouchers</a></li>
+          </ul>
+        </div>
+        <p>&copy; 2023 For Education Purpose only Made by Annalise Wheeler</p>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- CONTENT RESOURCES -->
+<!-- Video by cottonbro studio from Pexels: https://www.pexels.com/video/a-gypsy-man-posing-in-a-field-10667650/ -->
+
+<!--Utility Jacekt:FArfetch: https://www.farfetch.com/shopping/women/jacquemus-la-parka-raphia-cropped-jacket-item-19461300.aspx?fsb=1&size=20&storeid=9124&utm_source=google&utm_medium=cpc&utm_keywordid=119356144&utm_shoppingproductid=19461300-20&pid=google_search&af_channel=Search&c=2069920048&af_c_id=2069920048&af_siteid=&af_keywords=pla-297226412379&af_adset_id=75217628294&af_ad_id=204345266632&af_sub1=119356144&af_sub5=19461300-20&is_retargeting=true&shopping=yes&gclid=CjwKCAjw6IiiBhAOEiwALNqncXGmK-wisrcjBnLo7Kt2XQTN5RGHm-QbqF5cEsbRuU7AQ_6-V7yPpBoCFOIQAvD_BwE -->
+
+<!-- Photo by Niko MonDì httpswww.pexels.comphotomodels-posing-in-jewelry-and-makeup-14672496 -->
+<!-- Photo by Kuda.foto: https://www.pexels.com/photo/group-of-models-in-suits-posing-outdoors-14651604/ -->
+<!-- Photo by cottonbro studio: https://www.pexels.com/photo/women-standing-on-rocky-surface-wearing-business-suits-9834549/ -->
+<!-- Photo by cottonbro studio: https://www.pexels.com/photo/two-people-in-fashionable-jackets-5839947/ -->
+<!-- Photo by Midory Pho: https://www.pexels.com/photo/women-in-dresses-on-white-studio-background-13786287/ -->
+<!-- Photo by cottonbro studio: https://www.pexels.com/photo/fashion-man-love-people-10667749/ -->
+<!-- Photo by cottonbro studio: https://www.pexels.com/photo/person-wearing-silver-rings-holding-leather-garment-9431876/ -->
+<!-- Photo by Dziana Hasanbekava: https://www.pexels.com/photo/anonymous-woman-reading-book-on-white-background-5480698/ -->
+<!-- Photo by Bhavitya Indora: https://www.pexels.com/photo/photo-of-man-wearing-neon-shoes-2782093/ -->
+<!-- Photo by Eyup Beyhan: https://www.pexels.com/photo/woman-in-heels-posing-in-studio-14011354/ -->
+<!-- Photo by Ron Lach : https://www.pexels.com/photo/man-and-woman-posing-together-7778880/ -->
+<!-- Photo by Midory Pho: https://www.pexels.com/photo/fashion-photoshoot-with-young-man-and-woman-in-studio-13786281/ -->
+<!-- Photo by Fireworks  Uche: https://www.pexels.com/photo/portrait-of-a-woman-in-trendy-sunglasses-15953095/ -->
+<!-- Photo by armağan başaran : https://www.pexels.com/photo/a-person-in-a-stylish-hoodie-and-mask-9969397/ -->
+<!-- Photo by Sneep Crew: https://www.pexels.com/photo/close-up-of-man-wearing-white-sneakers-12739981/ -->
+<!-- Photo by Niko MonDì: https://www.pexels.com/photo/silver-jewelry-on-woman-face-14672500/ -->
+<!-- Photo by <a href="https://unsplash.com/it/@lolaroseofficial?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lola Rose</a> on <a href="https://unsplash.com/photos/dgIDBlmYVhk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+<!-- Photo by <a href="https://unsplash.com/@alvensiangela?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ALVENSIA ANGELA</a> on <a href="https://unsplash.com/photos/b1YXcU6t3R4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+<!-- Photo by <a href="https://unsplash.com/@jeisblack?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Blackeye</a> on <a href="https://unsplash.com/photos/vcIKDCgSr3g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+<!-- Photo by <a href="https://unsplash.com/@sashafreemind?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sasha  Freemind</a> on <a href="https://unsplash.com/photos/DNbphZCOilE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+<!-- Photo by <a href="https://unsplash.com/@house_42?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Taylor Brandon</a> on <a href="https://unsplash.com/photos/gHQL9hg7Sfk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+<!-- Photo by <a href="https://unsplash.com/@marvelous?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marvin Meyer</a> on <a href="https://unsplash.com/photos/-os_cwimpJI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+<!-- Photo by <a href="https://unsplash.com/fr/@phsimeon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Simeon Asenov</a> on <a href="https://unsplash.com/photos/HAffxUF60bE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+<!-- Photo by <a href="https://unsplash.com/@lgrt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lauro Rodríguez</a> on <a href="https://unsplash.com/photos/XIzZ0eRDUuo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+<!-- Photo by <a href="https://unsplash.com/@goh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hong Nguyen</a> on <a href="https://unsplash.com/photos/y0ZrRi-RpXc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+
+<!-- Photo by Alina Levkovich: https://www.pexels.com/photo/exhausted-woman-lying-on-sofa-13387040/ -->
+<!-- \Photo by Dziana Hasanbekava: https://www.pexels.com/photo/stylish-woman-sitting-near-gray-textile-5480688/ -->
+<!-- Photo by Jill Burrow: https://www.pexels.com/photo/trendy-young-woman-touching-chin-and-looking-at-camera-6758073/ -->
+<!-- Photo by Ron Lach : https://www.pexels.com/photo/women-posing-at-the-camera-9463575/ -->
+<!-- Photo by Mikhail Nilov: https://www.pexels.com/photo/woman-in-white-dress-shirt-7624504/ -->
+<!-- Photo by Leeloo Thefirst: https://www.pexels.com/photo/blanket-and-a-picnic-basket-on-grass-in-summer-6794054/ -->
+<!-- Video by paashuu  : https://www.pexels.com/video/low-angle-view-of-a-female-model-posing-during-a-photo-session-15526545/ -->
